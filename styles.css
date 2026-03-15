@@ -241,39 +241,91 @@ nav {
 .hero-content {
   position: relative;
   z-index: 1;
-  max-width: 800px;
+  max-width: 1500px;
+  width: 100%;
 }
 
-/* Hero Photo */
-.hero-photo {
-  width: 160px;
-  height: 160px;
-  margin: 0 auto 2rem;
+/* Hero Photo with Title */
+.hero-photo-bg {
+  width: 1100px;
+  height: 1100px;
+  margin: 5% auto 2rem;
   position: relative;
-}
-
-.hero-photo img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  border-radius: 50%;
-  border: 3px solid var(--accent);
-  box-shadow: 0 0 40px var(--accent-glow);
-}
-
-.hero-photo-placeholder {
-  width: 100%;
-  height: 100%;
-  border-radius: 50%;
-  background: linear-gradient(135deg, var(--bg-card) 0%, var(--bg-card-hover) 100%);
-  border: 3px solid var(--accent);
-  box-shadow: 0 0 40px var(--accent-glow);
   display: flex;
   align-items: center;
   justify-content: center;
-  color: var(--text-muted);
-  font-size: 0.85rem;
+}
+
+.hero-photo-bg img {
+  position: absolute;
+  width: 80%;
+  height: 80%;
+  object-fit: contain;
+  object-position: center;
+  filter: brightness(0.6);
+  top: -5%;
+  mask-image: radial-gradient(circle, black 30%, transparent 65%);
+  -webkit-mask-image: radial-gradient(circle, black 30%, transparent 65%);
+}
+
+.hero-photo-text {
+  position: relative;
+  z-index: 1;
   text-align: center;
+  padding: 1rem;
+  margin-top: 10%;
+}
+
+.hero-photo-bg h1 {
+  font-family: 'Playfair Display', Georgia, serif;
+  font-size: clamp(2rem, 6vw, 3rem);
+  font-weight: 600;
+  letter-spacing: -1px;
+  background: linear-gradient(135deg, var(--accent) 0%, var(--accent-light) 50%, #ffb6d9 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-shadow: none;
+  filter: drop-shadow(0 0 15px var(--accent-glow)) drop-shadow(0 0 30px rgba(255, 77, 148, 0.4));
+  margin-bottom: 0.2rem;
+}
+
+.hero-photo-bg .tagline {
+  font-size: 0.6rem;
+  color: var(--accent-light);
+  font-weight: 400;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  text-shadow: 0 0 10px var(--accent-glow), 0 0 20px rgba(255, 77, 148, 0.3);
+  transform: scale(0.5);
+  transform-origin: center;
+  /* white-space: nowrap; */
+}
+
+/* Instagram Link inside photo */
+.hero-photo-text .instagram-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  color: var(--text-primary);
+  text-decoration: none;
+  font-size: 1.2rem;
+  margin-top: -1.5rem;
+  margin-bottom: 0;
+  padding: 0.5rem 1rem;
+  border-radius: 25px;
+  background: linear-gradient(135deg, rgba(255, 77, 148, 0.3), rgba(255, 126, 179, 0.2));
+  border: 1px solid var(--accent);
+  box-shadow: 0 0 20px var(--accent-glow), inset 0 0 15px rgba(255, 77, 148, 0.1);
+  transition: all 0.3s ease;
+}
+
+.hero-photo-text .instagram-link:hover {
+  color: var(--text-primary);
+  border-color: var(--accent-light);
+  background: linear-gradient(135deg, rgba(255, 77, 148, 0.5), rgba(255, 126, 179, 0.3));
+  box-shadow: 0 0 30px var(--accent-glow), inset 0 0 20px rgba(255, 77,  148, 0.2);
+  transform: scale(1.05);
 }
 
 /* Instagram Link */
@@ -306,20 +358,8 @@ nav {
   transform: scale(1.1);
 }
 
-.hero h1 {
-  font-family: 'Playfair Display', Georgia, serif;
-  font-size: clamp(2.5rem, 8vw, 5rem);
-  font-weight: 600;
-  letter-spacing: -1px;
-  margin-bottom: 1rem;
-  background: linear-gradient(135deg, var(--text-primary) 0%, var(--accent-light) 50%, var(--accent) 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-}
-
 .hero .tagline {
-  font-size: clamp(1rem, 2.5vw, 1.25rem);
+  font-size: clamp(1.8rem, 2.5vw, 1.25rem);
   color: var(--text-secondary);
   margin-bottom: 2.5rem;
   font-weight: 300;
