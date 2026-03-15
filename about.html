@@ -8,31 +8,13 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Playfair+Display:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+  <script src="components/loader.js"></script>
 </head>
 
 <body>
 
   <!-- Navigation -->
-  <nav>
-    <a href="index.html" class="nav-logo">Ulkar<span>Pole</span></a>
-    <div class="nav-links">
-      <a href="index.html">Home</a>
-      <a href="about.html" class="active">About</a>
-      <a href="blog.html">Blog</a>
-      <div class="nav-dropdown">
-        <a href="#" class="nav-dropdown-trigger">Useful Directories ▾</a>
-        <div class="nav-dropdown-menu">
-          <a href="competitions.html">Competitions</a>
-          <a href="schools.html">Online Schools</a>
-        </div>
-      </div>
-    </div>
-    <div class="nav-toggle" onclick="toggleMenu()">
-      <span></span>
-      <span></span>
-      <span></span>
-    </div>
-  </nav>
+  <div id="nav-placeholder"></div>
 
   <!-- Page Header -->
   <header class="page-header">
@@ -44,43 +26,70 @@
   <div class="container">
     <div class="about-content">
       <div class="about-image">
-        <div class="about-image-placeholder">
-          🩰
-        </div>
+        <img src="images/Profile.jpg" alt="Ulkar" style="width: 100%; border-radius: 20px; object-fit: cover;">
       </div>
       
       <div class="about-text">
         <h2>Hey, I'm Ulkar</h2>
         <p>
-          Welcome to my corner of the pole world. I'm a pole dancer, instructor, and forever student of movement. This blog is where I share everything I've learned — from technique breakdowns to choreography ideas, training tips to competition prep.
+          Welcome to my corner of the pole world! I'm a pole dancer, competitor, and instructor based in Toulouse, France. My journey with aerials began in 2020 and has since become my greatest passion.
         </p>
         <p>
-          My pole journey started [your year], and since then it's become so much more than a hobby. It's become a way to express creativity, build strength, connect with an incredible community, and constantly challenge myself to grow.
+          Whether I'm training for competitions, teaching private classes, or creating new choreography, pole dance allows me to express myself and push my limits every day. I love connecting with the pole community and helping others discover the joy and strength that comes with this art form.
         </p>
         <p>
-          I believe in breaking down complex moves into understandable progressions, in celebrating all styles of pole, and in making pole knowledge accessible to everyone — whether you're just starting out or working toward competition.
-        </p>
-        <p>
-          Through this blog, I hope to contribute to the pole community and help others on their own journeys. Feel free to reach out if you have questions, requests, or just want to connect!
+          On this site, I share my experiences, tips, and resources for pole dancers at every level. Feel free to reach out — I'd love to connect!
         </p>
         
-        <div class="about-stats">
-          <div class="stat">
-            <span class="stat-number">5+</span>
-            <span class="stat-label">Years Dancing</span>
-          </div>
-          <div class="stat">
-            <span class="stat-number">100+</span>
-            <span class="stat-label">Moves Mastered</span>
-          </div>
-          <div class="stat">
-            <span class="stat-number">∞</span>
-            <span class="stat-label">Still Learning</span>
-          </div>
-        </div>
+        <ul style="list-style: none; padding: 0; margin-top: 1.5rem;">
+          <li style="display: flex; align-items: center; gap: 0.75rem; margin-bottom: 0.75rem; color: rgba(255,255,255,0.8);">
+            <span style="font-size: 1.2rem;">💫</span> <strong style="color: #ff7eb3;">Favorite Trick:</strong> Ayesha
+          </li>
+          <li style="display: flex; align-items: center; gap: 0.75rem; color: rgba(255,255,255,0.8);">
+            <span style="font-size: 1.2rem;">🎵</span> <strong style="color: #ff7eb3;">My Style:</strong> Old School
+          </li>
+        </ul>
       </div>
     </div>
   </div>
+
+  <!-- Competition Awards -->
+  <section class="container">
+    <style>
+      .awards-list {
+        margin: 2rem 0;
+      }
+      .award-item {
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+        padding: 0.75rem 0;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+      }
+      .award-item:last-child {
+        border-bottom: none;
+      }
+      .award-item .award-icon {
+        font-size: 1.5rem;
+      }
+      .award-item .award-info {
+        color: rgba(255, 255, 255, 0.8);
+      }
+      .award-item .award-info strong {
+        color: #ff7eb3;
+      }
+    </style>
+    
+    <span class="section-title">Achievements</span>
+    <h2 class="section-heading">Competition Awards</h2>
+    
+    <div class="awards-list">
+      <div class="award-item">
+        <span class="award-icon">�</span>
+        <span class="award-info"><strong>3rd Place</strong> — Exotic Generation France 2026</span>
+      </div>
+    </div>
+  </section>
 
   <!-- What I Do Section -->
   <section class="container">
@@ -109,45 +118,7 @@
   </section>
 
   <!-- Footer -->
-  <footer>
-    <div class="footer-content">
-      <div class="footer-brand">
-        <h3>Ulkar<span>Pole</span></h3>
-        <p>Sharing pole dance knowledge, technique tips, and choreography ideas for dancers at every level.</p>
-      </div>
-      <div class="footer-links">
-        <h4>Navigate</h4>
-        <a href="index.html">Home</a>
-        <a href="about.html">About</a>
-        <a href="blog.html">Blog</a>
-      </div>
-      <div class="footer-links">
-        <h4>Resources</h4>
-        <a href="competitions.html">Competitions</a>
-        <a href="schools.html">Online Schools</a>
-      </div>
-      <div class="footer-links">
-        <h4>Connect</h4>
-        <a href="#">Instagram</a>
-        <a href="#">YouTube</a>
-        <a href="#">Email</a>
-      </div>
-    </div>
-    <div class="footer-bottom">
-      <p>© 2026 Ulkar Pole. All rights reserved.</p>
-      <div class="social-links">
-        <a href="#" title="Instagram">📷</a>
-        <a href="#" title="YouTube">▶️</a>
-        <a href="#" title="Email">✉️</a>
-      </div>
-    </div>
-  </footer>
-
-  <script>
-    function toggleMenu() {
-      document.querySelector('.nav-links').classList.toggle('active');
-    }
-  </script>
+  <div id="footer-placeholder"></div>
 
 </body>
 </html>

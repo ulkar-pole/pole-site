@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Learn From Me | Ulkar Pole</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <style>
+    .learn-hero {
+      padding: 120px 2rem 60px;
+      text-align: center;
+    }
+
+    .learn-hero h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: clamp(2.5rem, 5vw, 4rem);
+      margin-bottom: 1rem;
+      background: linear-gradient(135deg, #fff 0%, #ff7eb3 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+
+    .learn-hero p {
+      font-size: 1.1rem;
+      color: rgba(255, 255, 255, 0.7);
+      max-width: 600px;
+      margin: 0 auto;
+    }
+
+    .learn-content {
+      max-width: 1000px;
+      margin: 0 auto;
+      padding: 2rem;
+    }
+
+    .learn-card {
+      background: linear-gradient(135deg, rgba(255, 77, 148, 0.1) 0%, rgba(255, 126, 179, 0.05) 100%);
+      border: 1px solid rgba(255, 77, 148, 0.2);
+      border-radius: 20px;
+      padding: 3rem;
+      text-align: center;
+      margin-bottom: 2rem;
+    }
+
+    .learn-card h2 {
+      font-family: 'Playfair Display', serif;
+      font-size: 2rem;
+      margin-bottom: 1rem;
+      color: #fff;
+    }
+
+    .learn-card p {
+      color: rgba(255, 255, 255, 0.7);
+      font-size: 1.1rem;
+      line-height: 1.8;
+      margin-bottom: 2rem;
+      max-width: 600px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .learn-card .cta-button {
+      display: inline-block;
+      padding: 1rem 2.5rem;
+      background: linear-gradient(135deg, #ff4d94 0%, #ff7eb3 100%);
+      color: #fff;
+      text-decoration: none;
+      border-radius: 50px;
+      font-weight: 500;
+      font-size: 1.1rem;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .learn-card .cta-button:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 10px 30px rgba(255, 77, 148, 0.4);
+    }
+
+    .offerings {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 1.5rem;
+      margin-top: 3rem;
+    }
+
+    .offering-item {
+      background: rgba(255, 255, 255, 0.03);
+      border: 1px solid rgba(255, 255, 255, 0.08);
+      border-radius: 16px;
+      padding: 2rem;
+      text-align: center;
+    }
+
+    .offering-item h3 {
+      font-family: 'Playfair Display', serif;
+      font-size: 1.3rem;
+      margin-bottom: 0.75rem;
+      color: #ff7eb3;
+    }
+
+    .offering-item p {
+      color: rgba(255, 255, 255, 0.6);
+      font-size: 0.95rem;
+      line-height: 1.6;
+    }
+
+    @media (max-width: 768px) {
+      .learn-card {
+        padding: 2rem 1.5rem;
+      }
+    }
+  </style>
+  <script src="components/loader.js"></script>
+</head>
+<body>
+
+  <!-- Navigation -->
+  <div id="nav-placeholder"></div>
+
+  <!-- Hero -->
+  <section class="learn-hero">
+    <h1>Learn From Me</h1>
+    <p>Ready to take your pole journey to the next level? Let's work together!</p>
+  </section>
+
+  <!-- Content -->
+  <section class="learn-content">
+    
+    <!-- Private Classes Card -->
+    <div class="learn-card">
+      <h2>Request Private Classes</h2>
+      <p>Whether you're just starting out or looking to refine advanced techniques, I offer personalized one-on-one sessions tailored to your goals and skill level.</p>
+      <a href="https://forms.google.com/your-form-placeholder" target="_blank" class="cta-button">Book a Session →</a>
+    </div>
+
+    <!-- What I Offer
+    <div class="offerings">
+      <div class="offering-item">
+        <h3>Beginner Foundations</h3>
+        <p>Build strength, learn basic spins, and develop proper technique from the ground up.</p>
+      </div>
+      <div class="offering-item">
+        <h3>Intermediate Combos</h3>
+        <p>Link moves together, work on transitions, and start exploring inversions.</p>
+      </div>
+      <div class="offering-item">
+        <h3>Advanced Tricks</h3>
+        <p>Master challenging moves, deadlifts, and complex combinations.</p>
+      </div>
+    </div> -->
+
+  </section>
+
+  <!-- Footer -->
+  <div id="footer-placeholder"></div>
+
+</body>
+</html>
