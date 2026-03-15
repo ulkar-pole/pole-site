@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Online Schools Directory | Ulkar Pole</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Playfair+Display:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!-- Navigation -->
+  <nav>
+    <a href="index.html" class="nav-logo">Ulkar<span>Pole</span></a>
+    <div class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="blog.html">Blog</a>
+      <div class="nav-dropdown">
+        <a href="#" class="nav-dropdown-trigger active">Useful Directories ▾</a>
+        <div class="nav-dropdown-menu">
+          <a href="competitions.html">Competitions</a>
+          <a href="schools.html">Online Schools</a>
+        </div>
+      </div>
+    </div>
+    <div class="nav-toggle" onclick="toggleMenu()">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+  </nav>
+
+  <!-- Page Header -->
+  <header class="page-header">
+    <h1>Online Schools Directory</h1>
+    <p>Curated platforms and instructors for learning pole dance from anywhere in the world.</p>
+  </header>
+
+  <!-- Directory Content -->
+  <section class="container">
+    <div class="directory-filters">
+      <button class="filter-btn active">All</button>
+      <button class="filter-btn">Platforms</button>
+      <button class="filter-btn">Individual Instructors</button>
+      <button class="filter-btn">Specialty</button>
+      <button class="filter-btn">Free Resources</button>
+    </div>
+
+    <!-- Major Platforms -->
+    <span class="section-title">Platforms</span>
+    <h2 class="section-heading">Online Learning Platforms</h2>
+
+    <div class="directory-item">
+      <div class="directory-logo">SP</div>
+      <div class="directory-info">
+        <h3>Studio Veena</h3>
+        <p>One of the original online pole education platforms with extensive video library covering all levels and styles.</p>
+      </div>
+      <div class="directory-tags">
+        <span class="card-tag">Platform</span>
+        <span class="card-tag">All Levels</span>
+      </div>
+    </div>
+
+    <div class="directory-item">
+      <div class="directory-logo">OPH</div>
+      <div class="directory-info">
+        <h3>Open Pole House</h3>
+        <p>Progressive online curriculum with structured learning paths from beginner to advanced.</p>
+      </div>
+      <div class="directory-tags">
+        <span class="card-tag">Platform</span>
+        <span class="card-tag">Structured</span>
+      </div>
+    </div>
+
+    <div class="directory-item">
+      <div class="directory-logo">123P</div>
+      <div class="directory-info">
+        <h3>123 Poling</h3>
+        <p>Affordable platform with tutorials, conditioning programs, and choreography classes.</p>
+      </div>
+      <div class="directory-tags">
+        <span class="card-tag">Platform</span>
+        <span class="card-tag">Budget-Friendly</span>
+      </div>
+    </div>
+
+    <div class="directory-item">
+      <div class="directory-logo">IPDFA</div>
+      <div class="directory-info">
+        <h3>IPDFA Online</h3>
+        <p>Professional certification courses and technique training for aspiring instructors.</p>
+      </div>
+      <div class="directory-tags">
+        <span class="card-tag">Platform</span>
+        <span class="card-tag">Certification</span>
+      </div>
+    </div>
+
+    <!-- Individual Instructors -->
+    <span class="section-title" style="margin-top: 4rem; display: block;">Instructors</span>
+    <h2 class="section-heading">Individual Instructor Programs</h2>
+
+    <div class="directory-item">
+      <div class="directory-logo">🌟</div>
+      <div class="directory-info">
+        <h3>Evgeny Greshilov Online</h3>
+        <p>World champion training programs focusing on strength, flexibility, and advanced combinations.</p>
+      </div>
+      <div class="directory-tags">
+        <span class="card-tag">Instructor</span>
+        <span class="card-tag">Advanced</span>
+      </div>
+    </div>
+
+    <div class="directory-item">
+      <div class="directory-logo">🎭</div>
+      <div class="directory-info">
+        <h3>Marion Crampe Academy</h3>
+        <p>Artistic pole training with focus on flow, transitions, and performance quality.</p>
+      </div>
+      <div class="directory-tags">
+        <span class="card-tag">Instructor</span>
+        <span class="card-tag">Artistic</span>
+      </div>
+    </div>
+
+    <div class="directory-item">
+      <div class="directory-logo">🔥</div>
+      <div class="directory-info">
+        <h3>Exotic Generation</h3>
+        <p>Specialized in exotic pole style, heels technique, and sensual movement.</p>
+      </div>
+      <div class="directory-tags">
+        <span class="card-tag">Instructor</span>
+        <span class="card-tag">Exotic</span>
+      </div>
+    </div>
+
+    <!-- Specialty -->
+    <span class="section-title" style="margin-top: 4rem; display: block;">Specialty</span>
+    <h2 class="section-heading">Specialized Training</h2>
+
+    <div class="directory-item">
+      <div class="directory-logo">🧘</div>
+      <div class="directory-info">
+        <h3>Pole Flexibility Programs</h3>
+        <p>Various flexibility-specific programs for pole dancers, focusing on splits, backbends, and shoulder mobility.</p>
+      </div>
+      <div class="directory-tags">
+        <span class="card-tag">Specialty</span>
+        <span class="card-tag">Flexibility</span>
+      </div>
+    </div>
+
+    <div class="directory-item">
+      <div class="directory-logo">💪</div>
+      <div class="directory-info">
+        <h3>Pole Conditioning Programs</h3>
+        <p>Strength and conditioning programs specifically designed for pole dancers' needs.</p>
+      </div>
+      <div class="directory-tags">
+        <span class="card-tag">Specialty</span>
+        <span class="card-tag">Strength</span>
+      </div>
+    </div>
+
+    <div class="directory-item">
+      <div class="directory-logo">🩹</div>
+      <div class="directory-info">
+        <h3>Pole Injury Prevention</h3>
+        <p>Programs focused on prehab, recovery, and safe training practices for longevity in pole.</p>
+      </div>
+      <div class="directory-tags">
+        <span class="card-tag">Specialty</span>
+        <span class="card-tag">Health</span>
+      </div>
+    </div>
+
+    <!-- Free Resources -->
+    <span class="section-title" style="margin-top: 4rem; display: block;">Free</span>
+    <h2 class="section-heading">Free Resources</h2>
+
+    <div class="directory-item">
+      <div class="directory-logo">▶️</div>
+      <div class="directory-info">
+        <h3>YouTube Tutorials</h3>
+        <p>Many instructors offer free tutorials on YouTube — great for learning basics and discovering teaching styles.</p>
+      </div>
+      <div class="directory-tags">
+        <span class="card-tag">Free</span>
+        <span class="card-tag">Video</span>
+      </div>
+    </div>
+
+    <div class="directory-item">
+      <div class="directory-logo">📱</div>
+      <div class="directory-info">
+        <h3>Instagram Tutorials</h3>
+        <p>Quick tips, transitions, and technique breakdowns from pole dancers worldwide.</p>
+      </div>
+      <div class="directory-tags">
+        <span class="card-tag">Free</span>
+        <span class="card-tag">Social</span>
+      </div>
+    </div>
+
+  </section>
+
+  <!-- Tips Section -->
+  <section class="container" style="padding-bottom: 5rem;">
+    <span class="section-title">Choosing Wisely</span>
+    <h2 class="section-heading">How to Choose an Online School</h2>
+    
+    <div class="cards-grid">
+      <div class="card">
+        <div class="card-icon">🎯</div>
+        <h3>Match Your Goals</h3>
+        <p>Are you training for competition, fitness, or artistic expression? Choose a platform that aligns with your pole goals.</p>
+      </div>
+      
+      <div class="card">
+        <div class="card-icon">📊</div>
+        <h3>Check Your Level</h3>
+        <p>Make sure the platform has appropriate content for your current skill level and room to grow.</p>
+      </div>
+      
+      <div class="card">
+        <div class="card-icon">🔄</div>
+        <h3>Try Before You Buy</h3>
+        <p>Many platforms offer free trials or sample videos. Test them out before committing to a subscription.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer-content">
+      <div class="footer-brand">
+        <h3>Ulkar<span>Pole</span></h3>
+        <p>Sharing pole dance knowledge, technique tips, and choreography ideas for dancers at every level.</p>
+      </div>
+      <div class="footer-links">
+        <h4>Navigate</h4>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="blog.html">Blog</a>
+      </div>
+      <div class="footer-links">
+        <h4>Resources</h4>
+        <a href="competitions.html">Competitions</a>
+        <a href="schools.html">Online Schools</a>
+      </div>
+      <div class="footer-links">
+        <h4>Connect</h4>
+        <a href="#">Instagram</a>
+        <a href="#">YouTube</a>
+        <a href="#">Email</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2026 Ulkar Pole. All rights reserved.</p>
+      <div class="social-links">
+        <a href="#" title="Instagram">📷</a>
+        <a href="#" title="YouTube">▶️</a>
+        <a href="#" title="Email">✉️</a>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    function toggleMenu() {
+      document.querySelector('.nav-links').classList.toggle('active');
+    }
+  </script>
+
+</body>
+</html>

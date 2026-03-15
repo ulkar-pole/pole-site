@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About | Ulkar</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Playfair+Display:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!-- Navigation -->
+  <nav>
+    <a href="index.html" class="nav-logo">Ulkar<span>Pole</span></a>
+    <div class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="about.html" class="active">About</a>
+      <a href="blog.html">Blog</a>
+      <div class="nav-dropdown">
+        <a href="#" class="nav-dropdown-trigger">Useful Directories ▾</a>
+        <div class="nav-dropdown-menu">
+          <a href="competitions.html">Competitions</a>
+          <a href="schools.html">Online Schools</a>
+        </div>
+      </div>
+    </div>
+    <div class="nav-toggle" onclick="toggleMenu()">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+  </nav>
+
+  <!-- Page Header -->
+  <header class="page-header">
+    <h1>About Me</h1>
+    <p>The story behind the pole, the passion, and the purpose.</p>
+  </header>
+
+  <!-- About Content -->
+  <div class="container">
+    <div class="about-content">
+      <div class="about-image">
+        <div class="about-image-placeholder">
+          🩰
+        </div>
+      </div>
+      
+      <div class="about-text">
+        <h2>Hey, I'm Ulkar</h2>
+        <p>
+          Welcome to my corner of the pole world. I'm a pole dancer, instructor, and forever student of movement. This blog is where I share everything I've learned — from technique breakdowns to choreography ideas, training tips to competition prep.
+        </p>
+        <p>
+          My pole journey started [your year], and since then it's become so much more than a hobby. It's become a way to express creativity, build strength, connect with an incredible community, and constantly challenge myself to grow.
+        </p>
+        <p>
+          I believe in breaking down complex moves into understandable progressions, in celebrating all styles of pole, and in making pole knowledge accessible to everyone — whether you're just starting out or working toward competition.
+        </p>
+        <p>
+          Through this blog, I hope to contribute to the pole community and help others on their own journeys. Feel free to reach out if you have questions, requests, or just want to connect!
+        </p>
+        
+        <div class="about-stats">
+          <div class="stat">
+            <span class="stat-number">5+</span>
+            <span class="stat-label">Years Dancing</span>
+          </div>
+          <div class="stat">
+            <span class="stat-number">100+</span>
+            <span class="stat-label">Moves Mastered</span>
+          </div>
+          <div class="stat">
+            <span class="stat-number">∞</span>
+            <span class="stat-label">Still Learning</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- What I Do Section -->
+  <section class="container">
+    <span class="section-title">What I Do</span>
+    <h2 class="section-heading">Instructor & Performer</h2>
+    
+    <div class="cards-grid">
+      <div class="card">
+        <div class="card-icon">🎓</div>
+        <h3>Teaching</h3>
+        <p>Helping students at all levels develop their technique, build strength, and find their own style on the pole.</p>
+      </div>
+      
+      <div class="card">
+        <div class="card-icon">✨</div>
+        <h3>Performing</h3>
+        <p>Bringing stories to life through movement — from competition routines to showcase performances.</p>
+      </div>
+      
+      <div class="card">
+        <div class="card-icon">✍️</div>
+        <h3>Writing</h3>
+        <p>Sharing pole knowledge through detailed breakdowns, tips, and resources on this blog.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer-content">
+      <div class="footer-brand">
+        <h3>Ulkar<span>Pole</span></h3>
+        <p>Sharing pole dance knowledge, technique tips, and choreography ideas for dancers at every level.</p>
+      </div>
+      <div class="footer-links">
+        <h4>Navigate</h4>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="blog.html">Blog</a>
+      </div>
+      <div class="footer-links">
+        <h4>Resources</h4>
+        <a href="competitions.html">Competitions</a>
+        <a href="schools.html">Online Schools</a>
+      </div>
+      <div class="footer-links">
+        <h4>Connect</h4>
+        <a href="#">Instagram</a>
+        <a href="#">YouTube</a>
+        <a href="#">Email</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2026 Ulkar Pole. All rights reserved.</p>
+      <div class="social-links">
+        <a href="#" title="Instagram">📷</a>
+        <a href="#" title="YouTube">▶️</a>
+        <a href="#" title="Email">✉️</a>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    function toggleMenu() {
+      document.querySelector('.nav-links').classList.toggle('active');
+    }
+  </script>
+
+</body>
+</html>
