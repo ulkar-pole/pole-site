@@ -1,0 +1,270 @@
+{
+  "competitions": [
+    {
+      "id": 1,
+      "name": "Exotic Generation Malta",
+      "description": "Exotic pole competition in Malta celebrating sensuality, heels, and floorwork artistry.",
+      "continent": "Europe",
+      "country": "Malta",
+      "category": ["exotic"],
+      "website": "https://www.exoticgenerationmalta.com",
+      "instagram": "",
+      "logo": "EGM",
+      "dates": [
+        {"start": "2026-09-18", "end": "2026-09-19", "location": "Malta"}
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Exotic Generation France",
+      "description": "French edition of the Exotic Generation competition series.",
+      "continent": "Europe",
+      "country": "France",
+      "category": ["exotic"],
+      "website": "https://www.frenchpoleriviera.com/competitions/exoticgenerationfrance",
+      "instagram": "https://www.instagram.com/exoticgeneration_france",
+      "logo": "EGF",
+      "dates": []
+    },
+    {
+      "id": 3,
+      "name": "Exotic Moon",
+      "description": "Italian exotic pole competition hosted by Turin Pole Dance Studio.",
+      "continent": "Europe",
+      "country": "Italy",
+      "category": ["exotic"],
+      "website": "https://turinpoledancestudio.com/exotic-moon",
+      "instagram": "https://www.instagram.com/exoticmoon_pole",
+      "logo": "EM",
+      "dates": [
+        {"start": "2026-06-13", "end": "2026-06-13", "location": "Turin, Italy"}
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Pole Freak Championship",
+      "description": "Croatian pole competition celebrating all styles of pole dance.",
+      "continent": "Europe",
+      "country": "Croatia",
+      "category": ["exotic", "pole-sport"],
+      "website": "https://polefreakchampionship.com",
+      "instagram": "https://www.instagram.com/polefreakchampionship",
+      "logo": "PFC",
+      "dates": [
+        {"start": "2026-03-29", "end": "2026-03-29", "location": "Croatia"}
+      ]
+    },
+    {
+      "id": 5,
+      "name": "SHABASH Exotic Pole Dance",
+      "description": "European exotic pole dance competition and event series.",
+      "continent": "Europe",
+      "country": "Various",
+      "category": ["exotic"],
+      "website": "https://shabash.events/en",
+      "instagram": "https://www.instagram.com/shabash.exotic",
+      "logo": "SHBSH",
+      "dates": []
+    },
+    {
+      "id": 6,
+      "name": "Exotic Dynasty",
+      "description": "Spanish exotic pole competition celebrating sensual movement and artistry.",
+      "continent": "Europe",
+      "country": "Spain",
+      "category": ["exotic"],
+      "website": "https://exoticdynasty.com",
+      "instagram": "https://www.instagram.com/exoticdynasty",
+      "logo": "ED",
+      "dates": [
+        {"start": "2025-10-31", "end": "2025-11-01", "location": "Spain"}
+      ]
+    },
+    {
+      "id": 7,
+      "name": "PoleQueens Exotic Championship",
+      "description": "Hungarian exotic pole championship celebrating queens of exotic pole.",
+      "continent": "Europe",
+      "country": "Hungary",
+      "category": ["exotic"],
+      "website": "https://en.poleartistic.com/polequeens",
+      "instagram": "https://www.instagram.com/exoticpolequeens",
+      "logo": "PQ",
+      "dates": [
+        {"start": "2025-10-18", "end": "2025-10-18", "location": "Hungary"}
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Scandinavian Scandal",
+      "description": "Swedish exotic pole competition bringing scandal to Scandinavia.",
+      "continent": "Europe",
+      "country": "Sweden",
+      "category": ["exotic"],
+      "website": "https://www.scandinavianscandal.com",
+      "instagram": "https://www.instagram.com/scandinavianscandal",
+      "logo": "SS",
+      "dates": [
+        {"start": "2026-11-14", "end": "2026-11-15", "location": "Sweden"}
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Eden Pole Competition",
+      "description": "UK pole competition celebrating pole artistry and performance.",
+      "continent": "Europe",
+      "country": "United Kingdom",
+      "category": ["exotic", "pole-sport"],
+      "website": "https://www.edenpolecompetition.com",
+      "instagram": "https://www.instagram.com/edenpolecompetition",
+      "logo": "EDEN",
+      "dates": [
+        {"start": "2026-05-24", "end": "2026-05-24", "location": "UK"}
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Skripped Down",
+      "description": "Canadian exotic pole competition hosted by Hall of Pole.",
+      "continent": "North America",
+      "country": "Canada",
+      "category": ["exotic"],
+      "website": "https://www.hallofpole.com/en/event/skripped-down",
+      "instagram": "https://www.instagram.com/skrippeddown",
+      "logo": "SD",
+      "dates": [
+        {"start": "2026-11-01", "end": "2026-11-30", "location": "Canada"}
+      ]
+    },
+    {
+      "id": 11,
+      "name": "CHROMEGEDDON",
+      "description": "Canadian pole competition bringing the heat to the chrome.",
+      "continent": "North America",
+      "country": "Canada",
+      "category": ["exotic", "pole-sport"],
+      "website": "https://payhip.com/CHROMEGEDDON",
+      "instagram": "",
+      "logo": "CHRM",
+      "dates": [
+        {"start": "2026-09-26", "end": "2026-09-26", "location": "Canada"}
+      ]
+    },
+    {
+      "id": 12,
+      "name": "Pole Masters Championship",
+      "description": "Canadian pole masters championship for experienced pole athletes.",
+      "continent": "North America",
+      "country": "Canada",
+      "category": ["pole-sport"],
+      "website": "https://www.polemasterschampionship.com",
+      "instagram": "",
+      "logo": "PMC",
+      "dates": [
+        {"start": "2025-10-11", "end": "2025-10-12", "location": "Canada"}
+      ]
+    },
+    {
+      "id": 13,
+      "name": "World Pole Championship (Argentina)",
+      "description": "International pole championship hosted in Argentina.",
+      "continent": "South America",
+      "country": "Argentina",
+      "category": ["pole-sport"],
+      "website": "https://polechampionship.net",
+      "instagram": "",
+      "logo": "WPC",
+      "dates": [
+        {"start": "2026-12-05", "end": "2026-12-07", "location": "Argentina"}
+      ]
+    },
+    {
+      "id": 14,
+      "name": "Exotic Generation Mexico",
+      "description": "Mexican edition of the Exotic Generation competition series.",
+      "continent": "North America",
+      "country": "Mexico",
+      "category": ["exotic"],
+      "website": "https://exoticgeneration.com/mexico",
+      "instagram": "",
+      "logo": "EGX",
+      "dates": []
+    },
+    {
+      "id": 15,
+      "name": "Exotic Generation Japan",
+      "description": "Japanese edition of the Exotic Generation competition series.",
+      "continent": "Asia",
+      "country": "Japan",
+      "category": ["exotic"],
+      "website": "https://www.exoticgeneration-japan.com",
+      "instagram": "",
+      "logo": "EGJ",
+      "dates": []
+    },
+    {
+      "id": 16,
+      "name": "PSO France",
+      "description": "Pole Sport Organization competition in France with multiple divisions and levels.",
+      "continent": "Europe",
+      "country": "France",
+      "category": ["pole-sport"],
+      "website": "https://www.polesportorg.com",
+      "instagram": "https://www.instagram.com/polesportorg",
+      "logo": "PSO",
+      "dates": [
+        {"start": "2026-06-27", "end": "2026-06-28", "location": "France"}
+      ]
+    },
+    {
+      "id": 17,
+      "name": "Dance Filthy USA",
+      "description": "US-based exotic and sensual pole dance competition.",
+      "continent": "North America",
+      "country": "United States",
+      "category": ["exotic"],
+      "website": "https://www.instagram.com/dancefilthyusa",
+      "instagram": "https://www.instagram.com/dancefilthyusa",
+      "logo": "DF",
+      "dates": []
+    },
+    {
+      "id": 18,
+      "name": "Soul on Pole",
+      "description": "Global online pole competition celebrating soul and artistry in pole dance.",
+      "continent": "International",
+      "country": "Online",
+      "category": ["exotic", "pole-sport"],
+      "website": "https://www.instagram.com/soulonpole",
+      "instagram": "https://www.instagram.com/soulonpole",
+      "logo": "SOP",
+      "dates": []
+    },
+    {
+      "id": 19,
+      "name": "Pole Theatre",
+      "description": "Global theatrical pole competition celebrating storytelling through Drama, Comedy, Classique, and Art categories.",
+      "continent": "International",
+      "country": "Various",
+      "category": ["pole-sport", "exotic"],
+      "website": "https://www.instagram.com/poletheatre",
+      "instagram": "https://www.instagram.com/poletheatre",
+      "logo": "PT",
+      "dates": [
+        {"start": "2026-04-01", "end": "2026-12-31", "location": "Multiple locations worldwide"}
+      ]
+    },
+    {
+      "id": 20,
+      "name": "PSO USA (Great Lakes / After Dark)",
+      "description": "Pole Sport Organization USA competitions including Great Lakes and After Dark divisions.",
+      "continent": "North America",
+      "country": "United States",
+      "category": ["pole-sport", "exotic"],
+      "website": "https://www.polesportorg.com",
+      "instagram": "https://www.instagram.com/polesportorg",
+      "logo": "PSO",
+      "dates": []
+    }
+  ]
+}
