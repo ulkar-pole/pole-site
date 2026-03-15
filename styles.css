@@ -1005,9 +1005,32 @@ footer {
   .footer-content {
     grid-template-columns: 1fr 1fr;
   }
+  
+  .hero-photo-bg {
+    width: 600px;
+    height: 600px;
+  }
 }
 
 @media (max-width: 768px) {
+  .hero-photo-bg {
+    width: 450px;
+    height: 450px;
+    margin: 10% auto 1rem;
+  }
+  
+  .hero-photo-bg h1 {
+    font-size: 1.5rem;
+  }
+  
+  .hero-photo-bg .tagline {
+    transform: scale(0.8);
+  }
+  
+  .hero-photo-text .instagram-link {
+    font-size: 1rem;
+  }
+  
   .nav-links {
     display: none;
     position: absolute;
@@ -1072,5 +1095,35 @@ footer {
   .btn {
     width: 100%;
     justify-content: center;
+  }
+  
+  .hero-photo-bg {
+    width: 350px;
+    height: 350px;
+    margin: 15% auto 1rem;
+  }
+  
+  .hero-photo-bg img {
+    width: 90%;
+    height: 90%;
+  }
+  
+  .hero-photo-text {
+    margin-top: 15%;
+  }
+  
+  .hero-photo-bg h1 {
+    font-size: 1.2rem;
+  }
+  
+  .hero-photo-bg .tagline {
+    font-size: 0.5rem;
+    transform: scale(0.7);
+  }
+  
+  .hero-photo-text .instagram-link {
+    font-size: 0.8rem;
+    padding: 0.3rem 0.6rem;
+    margin-top: -1rem;
   }
 }
