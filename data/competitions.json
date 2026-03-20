@@ -2,22 +2,222 @@
   "competitions": [
     {
       "id": 1,
-      "name": "Exotic Generation Malta",
-      "description": "Exotic pole competition in Malta celebrating sensuality, heels, and floorwork artistry.",
+      "name": "Scandinavian Scandal",
+      "description": "Swedish heels-based exotic pole competition rooted in stripper culture.",
       "continent": "Europe",
-      "country": "Malta",
+      "country": "Sweden",
       "category": ["exotic"],
-      "website": "https://www.exoticgenerationmalta.com",
-      "instagram": "",
-      "logo": "EGM",
+      "website": "https://www.scandinavianscandal.com",
+      "instagram": "https://www.instagram.com/scandinavianscandal",
+      "logo": "SS",
+      "levels": ["Temptation", "Desire", "Obsession", "Addiction", "Duo", "Group", "Floor Play"],
+      "application_deadline": "2026-04-19",
       "dates": [
-        {"start": "2026-09-18", "end": "2026-09-19", "location": "Malta"}
+        {
+          "start": "2026-11-14",
+          "end": "2026-11-15",
+          "location": "Norrköping, Sweden"
+        }
       ]
     },
     {
       "id": 2,
+      "name": "Exotic Generation Spain",
+      "description": "Spanish edition of the Exotic Generation exotic pole circuit.",
+      "continent": "Europe",
+      "country": "Spain",
+      "category": ["exotic"],
+      "website": "https://exoticgeneration.es",
+      "instagram": "",
+      "logo": "EGS",
+      "levels": ["Amateur", "Semi-Pro", "Professional", "Stars", "Doubles"],
+      "application_deadline": "",
+      "dates": [
+        {
+          "start": "2026-03-20",
+          "end": "2026-03-21",
+          "location": "Spain"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Pole Freak Exotic Championship",
+      "description": "International exotic pole competition in Croatia.",
+      "continent": "Europe",
+      "country": "Croatia",
+      "category": ["exotic"],
+      "website": "https://polefreakchampionship.com",
+      "instagram": "https://www.instagram.com/polefreakchampionship",
+      "logo": "PFC",
+      "levels": ["Amateur", "Professional", "Men", "Doubles/Groups"],
+      "application_deadline": "2026-01-11",
+      "dates": [
+        {
+          "start": "2026-03-29",
+          "end": "2026-03-29",
+          "location": "Zagreb, Croatia"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Exotic Moon",
+      "description": "International exotic pole championship held in Italy.",
+      "continent": "Europe",
+      "country": "Italy",
+      "category": ["exotic"],
+      "website": "https://turinpoledancestudio.com/exotic-moon",
+      "instagram": "https://www.instagram.com/exoticmoon_pole",
+      "logo": "EM",
+      "levels": ["Amateur", "Semi-Professional", "Professional", "Stars"],
+      "application_deadline": "",
+      "dates": [
+        {
+          "start": "2026-06-13",
+          "end": "2026-06-13",
+          "location": "Turin, Italy"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Exotic Dynasty",
+      "description": "Spanish exotic pole dance competition in Barcelona.",
+      "continent": "Europe",
+      "country": "Spain",
+      "category": ["exotic"],
+      "website": "https://exoticdynasty.com",
+      "instagram": "https://www.instagram.com/exoticdynasty",
+      "logo": "ED",
+      "levels": ["Beginner", "Intermediate", "Professional", "40+"],
+      "application_deadline": "",
+      "dates": [
+        {
+          "start": "2025-10-31",
+          "end": "2025-11-01",
+          "location": "Barcelona, Spain"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "SHABASH Exotic Championship",
+      "description": "European exotic pole competition with strict aesthetic and heels rules.",
+      "continent": "Europe",
+      "country": "Ukraine",
+      "category": ["exotic"],
+      "website": "https://shabash-exotic.com",
+      "instagram": "https://www.instagram.com/shabash.events",
+      "logo": "SHB",
+      "levels": [],
+      "application_deadline": "",
+      "dates": []
+    },
+    {
+      "id": 7,
+      "name": "Eden Pole Competition",
+      "description": "UK competition featuring sensual and exotic pole performance.",
+      "continent": "Europe",
+      "country": "United Kingdom",
+      "category": ["exotic", "pole-sport"],
+      "website": "https://www.edenpolecompetition.com",
+      "instagram": "https://www.instagram.com/edenpolecompetition",
+      "logo": "EDEN",
+      "levels": ["Competition", "Showcase"],
+      "application_deadline": "2026-01-18",
+      "dates": [
+        {
+          "start": "2026-05-23",
+          "end": "2026-05-24",
+          "location": "United Kingdom"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "name": "PoleQueens Exotic Championship",
+      "description": "Hungarian exotic pole competition.",
+      "continent": "Europe",
+      "country": "Hungary",
+      "category": ["exotic"],
+      "website": "https://en.poleartistic.com/polequeens",
+      "instagram": "https://www.instagram.com/exoticpolequeens",
+      "logo": "PQ",
+      "levels": [],
+      "application_deadline": "",
+      "dates": []
+    },
+    {
+      "id": 9,
+      "name": "Exotic Hell",
+      "description": "Italian exotic pole competition.",
+      "continent": "Europe",
+      "country": "Italy",
+      "category": ["exotic"],
+      "website": "https://exotichell.com",
+      "instagram": "https://www.instagram.com/eh_championship",
+      "logo": "EH",
+      "levels": [],
+      "application_deadline": "",
+      "dates": [
+        {
+          "start": "2026-10-16",
+          "end": "2026-10-17",
+          "location": "Italy"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Pole Theatre",
+      "description": "International pole competition with theatrical and exotic categories.",
+      "continent": "International",
+      "country": "Various",
+      "category": ["exotic", "pole-sport"],
+      "website": "https://www.poletheatre.com",
+      "instagram": "https://www.instagram.com/poletheatre",
+      "logo": "PT",
+      "levels": ["Drama", "Comedy", "Classique", "Art"],
+      "application_deadline": "",
+      "dates": []
+    },
+    {
+      "id": 11,
+      "name": "PSO (Pole Sport Organization) - After Dark",
+      "description": "Global competition circuit including exotic 'After Dark' divisions.",
+      "continent": "International",
+      "country": "Various",
+      "category": ["pole-sport", "exotic"],
+      "website": "https://www.polesportorg.com",
+      "instagram": "https://www.instagram.com/polesportorg",
+      "logo": "PSO",
+      "levels": ["Amateur", "Professional", "After Dark"],
+      "application_deadline": "",
+      "dates": []
+    },
+    {
+      "id": 12,
+      "name": "Exotic Generation Spain",
+      "description": "Spanish edition of the Exotic Generation exotic pole circuit.",
+      "continent": "Europe",
+      "country": "Spain",
+      "category": ["exotic"],
+      "website": "https://exoticgeneration.es",
+      "instagram": "https://www.instagram.com/exoticgeneration_spain",
+      "logo": "EGS",
+      "dates": [
+        {
+          "start": "2026-03-20",
+          "end": "2026-03-21",
+          "location": "Spain"
+        }
+      ]
+    },
+    {
+      "id": 13,
       "name": "Exotic Generation France",
-      "description": "French edition of the Exotic Generation competition series.",
+      "description": "French edition of Exotic Generation.",
       "continent": "Europe",
       "country": "France",
       "category": ["exotic"],
@@ -27,77 +227,202 @@
       "dates": []
     },
     {
-      "id": 3,
-      "name": "Exotic Moon",
-      "description": "Italian exotic pole competition hosted by Turin Pole Dance Studio.",
+      "id": 14,
+      "name": "Exotic Generation Italy",
+      "description": "Italian edition of Exotic Generation.",
       "continent": "Europe",
       "country": "Italy",
       "category": ["exotic"],
-      "website": "https://turinpoledancestudio.com/exotic-moon",
-      "instagram": "https://www.instagram.com/exoticmoon_pole",
-      "logo": "EM",
-      "dates": [
-        {"start": "2026-06-13", "end": "2026-06-13", "location": "Turin, Italy"}
-      ]
-    },
-    {
-      "id": 4,
-      "name": "Pole Freak Championship",
-      "description": "Croatian pole competition celebrating all styles of pole dance.",
-      "continent": "Europe",
-      "country": "Croatia",
-      "category": ["exotic", "pole-sport"],
-      "website": "https://polefreakchampionship.com",
-      "instagram": "https://www.instagram.com/polefreakchampionship",
-      "logo": "PFC",
-      "dates": [
-        {"start": "2026-03-29", "end": "2026-03-29", "location": "Croatia"}
-      ]
-    },
-    {
-      "id": 5,
-      "name": "SHABASH Exotic Pole Dance",
-      "description": "European exotic pole dance competition and event series.",
-      "continent": "Europe",
-      "country": "Various",
-      "category": ["exotic"],
-      "website": "https://shabash.events/en",
-      "instagram": "https://www.instagram.com/shabash.exotic",
-      "logo": "SHBSH",
+      "website": "https://exoticgeneration.com",
+      "instagram": "https://www.instagram.com/exotic_generation_italy",
+      "logo": "EGI",
       "dates": []
     },
     {
-      "id": 6,
-      "name": "Exotic Dynasty",
-      "description": "Spanish exotic pole competition celebrating sensual movement and artistry.",
+      "id": 15,
+      "name": "Exotic Generation Poland",
+      "description": "Polish edition of Exotic Generation.",
       "continent": "Europe",
-      "country": "Spain",
+      "country": "Poland",
       "category": ["exotic"],
-      "website": "https://exoticdynasty.com",
-      "instagram": "https://www.instagram.com/exoticdynasty",
-      "logo": "ED",
+      "website": "https://exoticgeneration.com",
+      "instagram": "https://www.instagram.com/exoticgeneration_poland",
+      "logo": "EGP",
+      "dates": []
+    },
+    {
+      "id": 16,
+      "name": "Exotic Generation Romania",
+      "description": "Romanian edition of Exotic Generation.",
+      "continent": "Europe",
+      "country": "Romania",
+      "category": ["exotic"],
+      "website": "https://exoticgeneration.com",
+      "instagram": "https://www.instagram.com/exoticgeneration_romania",
+      "logo": "EGR",
+      "dates": []
+    },
+    {
+      "id": 17,
+      "name": "Exotic Generation Japan",
+      "description": "Japanese edition of Exotic Generation.",
+      "continent": "Asia",
+      "country": "Japan",
+      "category": ["exotic"],
+      "website": "https://www.exoticgeneration-japan.com",
+      "instagram": "",
+      "logo": "EGJ",
       "dates": [
-        {"start": "2025-10-31", "end": "2025-11-01", "location": "Spain"}
+        {
+          "start": "2026-03-21",
+          "end": "2026-03-22",
+          "location": "Japan"
+        }
       ]
     },
     {
-      "id": 7,
-      "name": "PoleQueens Exotic Championship",
-      "description": "Hungarian exotic pole championship celebrating queens of exotic pole.",
-      "continent": "Europe",
-      "country": "Hungary",
+      "id": 18,
+      "name": "Exotic Generation China",
+      "description": "Chinese edition of Exotic Generation.",
+      "continent": "Asia",
+      "country": "China",
       "category": ["exotic"],
-      "website": "https://en.poleartistic.com/polequeens",
-      "instagram": "https://www.instagram.com/exoticpolequeens",
-      "logo": "PQ",
+      "website": "https://exoticgeneration.com",
+      "instagram": "https://www.instagram.com/exoticgeneration_china",
+      "logo": "EGCN",
+      "dates": []
+    },
+    {
+      "id": 19,
+      "name": "Exotic Generation Korea",
+      "description": "South Korean edition of Exotic Generation.",
+      "continent": "Asia",
+      "country": "South Korea",
+      "category": ["exotic"],
+      "website": "https://exoticgeneration.com",
+      "instagram": "",
+      "logo": "EGKR",
+      "dates": []
+    },
+    {
+      "id": 20,
+      "name": "Exotic Generation Taiwan",
+      "description": "Taiwan edition of Exotic Generation.",
+      "continent": "Asia",
+      "country": "Taiwan",
+      "category": ["exotic"],
+      "website": "https://exoticgeneration.com",
+      "instagram": "",
+      "logo": "EGTW",
+      "dates": []
+    },
+    {
+      "id": 21,
+      "name": "Exotic Generation Philippines",
+      "description": "Philippines edition of Exotic Generation.",
+      "continent": "Asia",
+      "country": "Philippines",
+      "category": ["exotic"],
+      "website": "https://exoticgeneration.com",
+      "instagram": "",
+      "logo": "EGPH",
+      "dates": []
+    },
+    {
+      "id": 22,
+      "name": "Exotic Generation Mexico",
+      "description": "Mexican edition of Exotic Generation.",
+      "continent": "North America",
+      "country": "Mexico",
+      "category": ["exotic"],
+      "website": "https://exoticgeneration.com/mexico",
+      "instagram": "",
+      "logo": "EGMX",
+      "dates": []
+    },
+    {
+      "id": 23,
+      "name": "Exotic Generation Brazil",
+      "description": "Brazilian edition of Exotic Generation.",
+      "continent": "South America",
+      "country": "Brazil",
+      "category": ["exotic"],
+      "website": "https://exoticgeneration.com",
+      "instagram": "",
+      "logo": "EGBR",
+      "dates": []
+    },
+    {
+      "id": 24,
+      "name": "Exotic Generation Argentina",
+      "description": "Argentinian edition of Exotic Generation.",
+      "continent": "South America",
+      "country": "Argentina",
+      "category": ["exotic"],
+      "website": "https://exoticgeneration.com",
+      "instagram": "",
+      "logo": "EGAR",
+      "dates": []
+    },
+    {
+      "id": 25,
+      "name": "Exotic Generation Chile",
+      "description": "Chilean edition of Exotic Generation.",
+      "continent": "South America",
+      "country": "Chile",
+      "category": ["exotic"],
+      "website": "https://exoticgeneration.com",
+      "instagram": "",
+      "logo": "EGCL",
+      "dates": []
+    },
+    {
+      "id": 26,
+      "name": "Exotic Generation Australia",
+      "description": "Australian edition of Exotic Generation.",
+      "continent": "Oceania",
+      "country": "Australia",
+      "category": ["exotic"],
+      "website": "https://www.theiguanadrop.com/exoticgenerationaustralia",
+      "instagram": "https://www.instagram.com/exoticgenerationaustralia",
+      "logo": "EGAU",
+      "dates": []
+    },
+    {
+      "id": 27,
+      "name": "Dance Filthy USA",
+      "description": "US-based exotic pole competition celebrating strip club aesthetics.",
+      "continent": "North America",
+      "country": "United States",
+      "category": ["exotic"],
+      "website": "https://www.instagram.com/dancefilthyusa",
+      "instagram": "https://www.instagram.com/dancefilthyusa",
+      "logo": "DFUS",
+      "dates": []
+    },
+    {
+      "id": 28,
+      "name": "Dance Filthy Italy",
+      "description": "Italian edition of Dance Filthy exotic pole competition.",
+      "continent": "Europe",
+      "country": "Italy",
+      "category": ["exotic"],
+      "website": "https://www.instagram.com/dancefilthy",
+      "instagram": "https://www.instagram.com/dancefilthy",
+      "logo": "DFIT",
+      "levels": ["Amateur", "Semi-Pro", "Pro"],
       "dates": [
-        {"start": "2025-10-18", "end": "2025-10-18", "location": "Hungary"}
+      {
+        "start": "2026-09-05",
+        "end": "2026-09-05",
+        "location": "Naples, Italy"
+      }
       ]
     },
     {
-      "id": 8,
+      "id": 29,
       "name": "Scandinavian Scandal",
-      "description": "Swedish exotic pole competition bringing scandal to Scandinavia.",
+      "description": "Swedish heels-based exotic pole competition rooted in stripper culture.",
       "continent": "Europe",
       "country": "Sweden",
       "category": ["exotic"],
@@ -105,165 +430,95 @@
       "instagram": "https://www.instagram.com/scandinavianscandal",
       "logo": "SS",
       "dates": [
-        {"start": "2026-11-14", "end": "2026-11-15", "location": "Sweden"}
+        {
+          "start": "2026-11-14",
+          "end": "2026-11-15",
+          "location": "Sweden"
+        }
       ]
     },
     {
-      "id": 9,
-      "name": "Eden Pole Competition",
-      "description": "UK pole competition celebrating pole artistry and performance.",
+      "id": 30,
+      "name": "Exotic Moon",
+      "description": "Italian exotic pole competition.",
       "continent": "Europe",
-      "country": "United Kingdom",
-      "category": ["exotic", "pole-sport"],
-      "website": "https://www.edenpolecompetition.com",
-      "instagram": "https://www.instagram.com/edenpolecompetition",
-      "logo": "EDEN",
-      "dates": [
-        {"start": "2026-05-24", "end": "2026-05-24", "location": "UK"}
-      ]
-    },
-    {
-      "id": 10,
-      "name": "Skripped Down",
-      "description": "Canadian exotic pole competition hosted by Hall of Pole.",
-      "continent": "North America",
-      "country": "Canada",
+      "country": "Italy",
       "category": ["exotic"],
-      "website": "https://www.hallofpole.com/en/event/skripped-down",
-      "instagram": "https://www.instagram.com/skrippeddown",
-      "logo": "SD",
+      "website": "https://turinpoledancestudio.com/exotic-moon",
+      "instagram": "https://www.instagram.com/exoticmoon_pole",
+      "logo": "EM",
       "dates": [
-        {"start": "2026-11-01", "end": "2026-11-30", "location": "Canada"}
+        {
+          "start": "2026-06-13",
+          "end": "2026-06-13",
+          "location": "Turin, Italy"
+        }
       ]
     },
     {
-      "id": 11,
-      "name": "CHROMEGEDDON",
-      "description": "Canadian pole competition bringing the heat to the chrome.",
-      "continent": "North America",
-      "country": "Canada",
-      "category": ["exotic", "pole-sport"],
-      "website": "https://payhip.com/CHROMEGEDDON",
-      "instagram": "",
-      "logo": "CHRM",
-      "dates": [
-        {"start": "2026-09-26", "end": "2026-09-26", "location": "Canada"}
-      ]
-    },
-    {
-      "id": 12,
-      "name": "Pole Masters Championship",
-      "description": "Canadian pole masters championship for experienced pole athletes.",
-      "continent": "North America",
-      "country": "Canada",
-      "category": ["pole-sport"],
-      "website": "https://www.polemasterschampionship.com",
-      "instagram": "",
-      "logo": "PMC",
-      "dates": [
-        {"start": "2025-10-11", "end": "2025-10-12", "location": "Canada"}
-      ]
-    },
-    {
-      "id": 13,
-      "name": "World Pole Championship (Argentina)",
-      "description": "International pole championship hosted in Argentina.",
-      "continent": "South America",
-      "country": "Argentina",
-      "category": ["pole-sport"],
-      "website": "https://polechampionship.net",
-      "instagram": "",
-      "logo": "WPC",
-      "dates": [
-        {"start": "2026-12-05", "end": "2026-12-07", "location": "Argentina"}
-      ]
-    },
-    {
-      "id": 14,
-      "name": "Exotic Generation Mexico",
-      "description": "Mexican edition of the Exotic Generation competition series.",
-      "continent": "North America",
-      "country": "Mexico",
+      "id": 31,
+      "name": "Exotic Dynasty",
+      "description": "Spanish exotic pole competition.",
+      "continent": "Europe",
+      "country": "Spain",
       "category": ["exotic"],
-      "website": "https://exoticgeneration.com/mexico",
+      "website": "https://exoticdynasty.com",
+      "instagram": "https://www.instagram.com/exoticdynasty",
+      "logo": "ED",
+      "dates": [
+        {
+          "start": "2025-10-31",
+          "end": "2025-11-01",
+          "location": "Spain"
+        }
+      ]
+    },
+    {
+      "id": 32,
+      "name": "Exotic Queen Poland",
+      "description": "Exotic Queen competition edition in Poland.",
+      "continent": "Europe",
+      "country": "Poland",
+      "category": ["exotic"],
+      "website": "https://poleartistic.com",
       "instagram": "",
-      "logo": "EGX",
+      "logo": "EQPL",
       "dates": []
     },
     {
-      "id": 15,
-      "name": "Exotic Generation Japan",
-      "description": "Japanese edition of the Exotic Generation competition series.",
-      "continent": "Asia",
-      "country": "Japan",
+      "id": 33,
+      "name": "Exotic Queen Hungary",
+      "description": "Exotic Queen competition edition in Hungary.",
+      "continent": "Europe",
+      "country": "Hungary",
       "category": ["exotic"],
-      "website": "https://www.exoticgeneration-japan.com",
+      "website": "https://poleartistic.com",
       "instagram": "",
-      "logo": "EGJ",
+      "logo": "EQHU",
       "dates": []
     },
     {
-      "id": 16,
-      "name": "PSO France",
-      "description": "Pole Sport Organization competition in France with multiple divisions and levels.",
+      "id": 34,
+      "name": "Exotic Queen Italy",
+      "description": "Exotic Queen competition edition in Italy.",
       "continent": "Europe",
-      "country": "France",
-      "category": ["pole-sport"],
-      "website": "https://www.polesportorg.com",
-      "instagram": "https://www.instagram.com/polesportorg",
-      "logo": "PSO",
-      "dates": [
-        {"start": "2026-06-27", "end": "2026-06-28", "location": "France"}
-      ]
+      "country": "Italy",
+      "category": ["exotic"],
+      "website": "https://poleartistic.com",
+      "instagram": "",
+      "logo": "EQIT",
+      "dates": []
     },
     {
-      "id": 17,
+      "id": 35,
       "name": "Dance Filthy USA",
-      "description": "US-based exotic and sensual pole dance competition.",
+      "description": "US-based exotic pole competition celebrating strip club aesthetics.",
       "continent": "North America",
       "country": "United States",
       "category": ["exotic"],
       "website": "https://www.instagram.com/dancefilthyusa",
       "instagram": "https://www.instagram.com/dancefilthyusa",
-      "logo": "DF",
-      "dates": []
-    },
-    {
-      "id": 18,
-      "name": "Soul on Pole",
-      "description": "Global online pole competition celebrating soul and artistry in pole dance.",
-      "continent": "International",
-      "country": "Online",
-      "category": ["exotic", "pole-sport"],
-      "website": "https://www.instagram.com/soulonpole",
-      "instagram": "https://www.instagram.com/soulonpole",
-      "logo": "SOP",
-      "dates": []
-    },
-    {
-      "id": 19,
-      "name": "Pole Theatre",
-      "description": "Global theatrical pole competition celebrating storytelling through Drama, Comedy, Classique, and Art categories.",
-      "continent": "International",
-      "country": "Various",
-      "category": ["pole-sport", "exotic"],
-      "website": "https://www.instagram.com/poletheatre",
-      "instagram": "https://www.instagram.com/poletheatre",
-      "logo": "PT",
-      "dates": [
-        {"start": "2026-04-01", "end": "2026-12-31", "location": "Multiple locations worldwide"}
-      ]
-    },
-    {
-      "id": 20,
-      "name": "PSO USA (Great Lakes / After Dark)",
-      "description": "Pole Sport Organization USA competitions including Great Lakes and After Dark divisions.",
-      "continent": "North America",
-      "country": "United States",
-      "category": ["pole-sport", "exotic"],
-      "website": "https://www.polesportorg.com",
-      "instagram": "https://www.instagram.com/polesportorg",
-      "logo": "PSO",
+      "logo": "DFUS",
       "dates": []
     }
   ]

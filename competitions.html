@@ -62,10 +62,18 @@
       </div>
     </div>
     
-    <!-- View Toggle -->
+    <!-- View Toggle & Sort -->
     <div class="view-toggle">
       <button class="view-btn active" id="list-view-btn" onclick="showListView()">📋 List View</button>
       <button class="view-btn" id="calendar-view-btn" onclick="showCalendarView()">📅 Calendar View</button>
+      <div class="sort-row" style="margin-left:auto;">
+        <label for="sort-select" class="sort-label">Sort by:</label>
+        <select id="sort-select" class="sort-select" onchange="sortCompetitions()">
+          <option value="date-asc">Date (Soonest)</option>
+          <option value="date-desc">Date (Latest)</option>
+          <option value="name">Name (A-Z)</option>
+        </select>
+      </div>
     </div>
     
     <!-- Calendar View -->
@@ -171,15 +179,25 @@
       const categories = comp.category.map(c => 
         `<span class="card-tag">${getCategoryDisplay(c)}</span>`
       ).join('');
-      
       const websiteLink = comp.website !== '#' 
         ? `<a href="${comp.website}" target="_blank" class="competition-link">Website →</a>`
         : '';
-      
       const instagramLink = comp.instagram 
         ? `<a href="${comp.instagram}" target="_blank" class="competition-link instagram-btn">📷 Instagram</a>`
         : '';
-      
+      // Build details list
+      let details = '';
+      if (comp.levels && comp.levels.length) {
+        details += `<div><strong>Levels:</strong> ${comp.levels.join(', ')}</div>`;
+      }
+      if (comp.application_deadline) {
+        details += `<div><strong>Application Deadline:</strong> ${comp.application_deadline}</div>`;
+      }
+      if (comp.dates && comp.dates.length) {
+        details += '<div><strong>Dates & Locations:</strong><ul style="margin:0 0 0 1.2em;">' +
+          comp.dates.map(d => `<li>${d.start}${d.end && d.end !== d.start ? '–' + d.end : ''} — ${d.location}</li>`).join('') +
+          '</ul></div>';
+      }
       return `
         <div class="competition-card" 
              data-continent="${comp.continent}" 
@@ -189,6 +207,7 @@
           <div class="competition-info">
             <h3>${comp.name}</h3>
             <p>${comp.description}</p>
+            <div class="competition-details" style="color:var(--text-secondary); font-size:0.98em; margin-bottom:0.5em;">${details}</div>
             <div class="competition-meta">
               <span class="card-tag" style="background: rgba(255,255,255,0.1); color: var(--text-secondary);">${comp.continent}</span>
               <span class="card-tag" style="background: rgba(255,255,255,0.1); color: var(--text-secondary);">${comp.country}</span>
@@ -203,10 +222,28 @@
       `;
     }
     
+    // Sort competitions
+    let currentSort = 'date-asc';
+    function sortCompetitions() {
+      currentSort = document.getElementById('sort-select').value;
+      renderCompetitions();
+    }
+
     // Render all competitions
     function renderCompetitions() {
+      let comps = [...competitions];
+      // Sort logic
+      if (currentSort === 'date-asc' || currentSort === 'date-desc') {
+        comps.sort((a, b) => {
+          const aDate = a.dates && a.dates[0] ? new Date(a.dates[0].start) : new Date(2100,0,1);
+          const bDate = b.dates && b.dates[0] ? new Date(b.dates[0].start) : new Date(2100,0,1);
+          return currentSort === 'date-asc' ? aDate - bDate : bDate - aDate;
+        });
+      } else if (currentSort === 'name') {
+        comps.sort((a, b) => a.name.localeCompare(b.name));
+      }
       const container = document.getElementById('competitions-list');
-      container.innerHTML = competitions.map(renderCompetitionCard).join('');
+      container.innerHTML = comps.map(renderCompetitionCard).join('');
       filterCompetitions();
     }
     
@@ -463,6 +500,8 @@
     
     // Initialize
     loadCompetitions();
+    document.getElementById('sort-select').value = 'date-asc';
+    showCalendarView();
   </script>
 
 </body>
